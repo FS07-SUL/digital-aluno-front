@@ -1,6 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageLayout from "../layouts/PageLayout";
 import Home from "../pages/Home";
+import Desafios from "../pages/Desafios";
+import Vagas from "../pages/Vagas";
 
 const Paths = () => {
     return (
@@ -13,7 +15,8 @@ const Paths = () => {
                     {/* Exemplo de rota
                     <Route path="sua-rota" element={seu-componente} /> */}
                 </Route>
-
+                <Route path="desafios" element={<Desafios />} />
+                <Route path="vagas" element={<Vagas />} />
             </Routes>
         </BrowserRouter>
     );
