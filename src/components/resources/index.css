@@ -13,7 +13,16 @@
 
 .bg-image-2 {
     background-color: #C80E66;
+    /* box-shadow:inset -40px 0px 100px -35px #000; */
+    background: linear-gradient( 135deg, #C80E66 0 50%, #620732);
+    /* opacity: .8 */
 }
+
+/* .bg-image-2::before {
+    content: "";
+    background: linear-gradient( 135deg, #C80E66 0 50%, black);
+    opacity: .5;
+} */
 
 .bg-image .backgroundImage {
     height: 100%;
