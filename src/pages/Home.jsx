@@ -1,10 +1,11 @@
 import Resources from "../components/Resources/Resources"
+import NossosCursos from "../components/NossosCursos"
 
 const Home = () => {
     return (
         <>
-            <h1>Home</h1>
             <Resources />
+            <NossosCursos/>
         </>
     );
 }
