@@ -1,13 +1,12 @@
 import React from "react";
 import 'animate.css';
 
-
 export default function NossosCursos() {
   return (
     <div className="container p-4">
       <h1 
         style={{
-          fontSize: "48px",
+          fontSize: "40px",
         }} 
         className="animate__animated animate__backInDown flex justify-content-center pb-5"
       >
@@ -20,15 +19,18 @@ export default function NossosCursos() {
           className="animate__animated animate__fadeIn animate__slow text-black-alpha-90 flex flex-column justify-content-between border-round-3xl"
           style={{
             backgroundColor: "#F75C38",
-            width: "300px",
+            width: "23%",
             height: "196px",
             boxShadow: "none",
             paddingTop: "26px",
             paddingLeft: "26px",
+            cursor: "pointer",
+            transition: "opacity 0.3s ease-in-out",
           }}
+        
         >
           <h5 style={{
-            fontSize: "28px",
+            fontSize: "22px",
             width: "145px",
             margin: "0",
           }}>Marketing Digital
@@ -38,6 +40,7 @@ export default function NossosCursos() {
             margin: "0",
             paddingTop: "26px",
             paddingBottom: "26px",
+            fontSize: "14px",
           }} className="font-bold">
             12 meses
           </p>
@@ -48,15 +51,18 @@ export default function NossosCursos() {
           className="animate__animated animate__fadeIn animate__slow text-black-alpha-90 flex flex-column justify-content-between border-round-3xl"
           style={{
             backgroundColor: "#A2FAA3",
-            width: "300px",
+            width: "23%",
             height: "196px",
             boxShadow: "none",
             paddingTop: "26px",
             paddingLeft: "26px",
+            cursor: "pointer",
+            transition: "opacity 0.3s ease-in-out",
           }}
+          
         >
           <h5 style={{
-            fontSize: "28px",
+            fontSize: "22px",
             width: "145px",
             margin: "0",
           }}>Desenvolvedor FullStack
@@ -66,6 +72,7 @@ export default function NossosCursos() {
             margin: "0",
             paddingTop: "26px",
             paddingBottom: "26px",
+            fontSize: "14px",
           }} className="font-bold">
             12 meses
           </p>
@@ -76,15 +83,18 @@ export default function NossosCursos() {
           className="animate__animated animate__fadeIn animate__slow text-black-alpha-90 flex flex-column justify-content-between border-round-3xl"
           style={{
             backgroundColor: "#E33A57",
-            width: "300px",
+            width: "23%",
             height: "196px",
             boxShadow: "none",
             paddingTop: "26px",
             paddingLeft: "26px",
+            cursor: "pointer",
+            transition: "opacity 0.3s ease-in-out",
           }}
+          
         >
           <h5 style={{
-            fontSize: "28px",
+            fontSize: "22px",
             width: "145px",
             margin: "0",
           }}>Data Analytics
@@ -94,6 +104,7 @@ export default function NossosCursos() {
             margin: "0",
             paddingTop: "26px",
             paddingBottom: "26px",
+            fontSize: "14px",
           }} className="font-bold">
             12 meses
           </p>
@@ -104,15 +115,18 @@ export default function NossosCursos() {
           className="animate__animated animate__fadeIn animate__slow text-black-alpha-90 flex flex-column justify-content-between border-round-3xl"
           style={{
             backgroundColor: "#C60CD3",
-            width: "300px",
+            width: "23%",
             height: "196px",
             boxShadow: "none",
             paddingTop: "26px",
             paddingLeft: "26px",
+            cursor: "pointer",
+            transition: "opacity 0.3s ease-in-out",
           }}
+          
         >
           <h5 style={{
-            fontSize: "28px",
+            fontSize: "22px",
             width: "145px",
             margin: "0",
           }}>Cybersecurity
@@ -122,6 +136,7 @@ export default function NossosCursos() {
             margin: "0",
             paddingTop: "26px",
             paddingBottom: "26px",
+            fontSize: "14px",
           }} className="font-bold">
             12 meses
           </p>
@@ -132,15 +147,18 @@ export default function NossosCursos() {
           className="animate__animated animate__fadeIn animate__slow text-black-alpha-90 flex flex-column justify-content-between border-round-3xl"
           style={{
             backgroundColor: "#6E8CB9",
-            width: "300px",
+            width: "23%",
             height: "196px",
             boxShadow: "none",
             paddingTop: "26px",
             paddingLeft: "26px",
+            cursor: "pointer",
+            transition: "opacity 0.3s ease-in-out",
           }}
+          
         >
           <h5 style={{
-            fontSize: "28px",
+            fontSize: "22px",
             width: "145px",
             margin: "0",
           }}>Design UI/UX + IA
@@ -150,6 +168,7 @@ export default function NossosCursos() {
             margin: "0",
             paddingTop: "26px",
             paddingBottom: "26px",
+            fontSize: "14px",
           }} className="font-bold">
             12 meses
           </p>
@@ -160,15 +179,18 @@ export default function NossosCursos() {
           className="animate__animated animate__fadeIn animate__slow text-black-alpha-90 flex flex-column justify-content-between border-round-3xl"
           style={{
             backgroundColor: "#FFAE42",
-            width: "300px",
+            width: "23%",
             height: "196px",
             boxShadow: "none",
             paddingTop: "26px",
             paddingLeft: "26px",
+            cursor: "pointer",
+            transition: "opacity 0.3s ease-in-out",
           }}
+          
         >
           <h5 style={{
-            fontSize: "28px",
+            fontSize: "22px",
             margin: "0",
           }}>Gestor de Projeto Ágil
           </h5>
@@ -177,6 +199,7 @@ export default function NossosCursos() {
             margin: "0",
             paddingTop: "26px",
             paddingBottom: "26px",
+            fontSize: "14px",
           }} className="font-bold">
             12 meses
           </p>
@@ -187,15 +210,18 @@ export default function NossosCursos() {
           className="animate__animated animate__fadeIn animate__slow text-black-alpha-90 flex flex-column justify-content-between border-round-3xl"
           style={{
             backgroundColor: "#2ECC71",
-            width: "300px",
+            width: "23%",
             height: "196px",
             boxShadow: "none",
             paddingTop: "26px",
             paddingLeft: "26px",
+            cursor: "pointer",
+            transition: "opacity 0.3s ease-in-out",
           }}
+          
         >
           <h5 style={{
-            fontSize: "28px",
+            fontSize: "22px",
             width: "145px",
             margin: "0",
           }}>PHP com Laravel
@@ -205,6 +231,7 @@ export default function NossosCursos() {
             margin: "0",
             paddingTop: "26px",
             paddingBottom: "26px",
+            fontSize: "14px",
           }} className="font-bold">
             12 meses
           </p>
@@ -215,15 +242,18 @@ export default function NossosCursos() {
           className="animate__animated animate__fadeIn animate__slow text-black-alpha-90 flex flex-column justify-content-between border-round-3xl"
           style={{
             backgroundColor: "#3498DB",
-            width: "300px",
+            width: "23%",
             height: "196px",
             boxShadow: "none",
             paddingTop: "26px",
             paddingLeft: "26px",
+            cursor: "pointer",
+            transition: "opacity 0.3s ease-in-out",
           }}
+          
         >
           <h5 style={{
-            fontSize: "28px",
+            fontSize: "22px",
             margin: "0",
           }}>Tráfego Pago e Performance
           </h5>
@@ -232,35 +262,12 @@ export default function NossosCursos() {
             margin: "0",
             paddingTop: "26px",
             paddingBottom: "26px",
+            fontSize: "14px",
           }} className="font-bold">
             12 meses
           </p>
         </div>
       </div>
-
-      <style jsx>{`
-        .flex {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-between;
-        }
-
-        .container > div {
-          flex-basis: calc(50% - 8px); /* Dois cards por linha, espaço de 8px entre eles */
-        }
-
-        @media (min-width: 1024px) {
-          .container > div {
-            flex-basis: calc(25% - 8px); /* Quatro colunas, dois cards por linha */
-          }
-        }
-
-        @media (max-width: 1023px) {
-          .container > div {
-            flex-basis: 100%; /* Apenas uma coluna */
-          }
-        }
-      `}</style>
     </div>
   );
 }
