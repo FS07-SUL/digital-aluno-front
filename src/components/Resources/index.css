@@ -1,0 +1,34 @@
+.container {
+    position: relative;
+}
+
+.bg-image {
+    max-width: 633px;
+    position: relative
+}
+
+.bg-image .backgroundImage {
+    width: 100%;
+}
+
+.bg-image-2 {
+    background-color: #C80E66;
+    background: linear-gradient( 135deg, #C80E66 0 50%, #620732);
+}
+
+.bg-image .backgroundImage {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.bg-image .link {
+    background-color: #C80E66;
+}
+
+.bg-image .link:hover {
+    background-color: #fff;
+    color: #C80E66;
+}
