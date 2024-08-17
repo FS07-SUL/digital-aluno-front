@@ -1,7 +1,9 @@
+import NossosCursos from "../components/NossosCursos";
+
 const Home = () => {
     return (
         <>
-            <h1>Home</h1>
+            <NossosCursos/>
         </>
     );
 }
