@@ -6,7 +6,7 @@ import { Link } from "react-router-dom"
 const Resources = () => {
     return (
         <div className="container flex flex-column gap-3 md:flex-row md:justify-content-center">
-            <div className="bg-image flex flex-column justify-content-evenly gap-2 pl-4 py-4 w-full">
+            <div className="bg-image flex flex-column justify-content-around gap-4 pl-4 py-6 w-full">
                     <img className="backgroundImage border-round-3xl m-0" src={BgImage} alt="" />
                     <h3 className="z-1 text-0 m-0 relative">Desafios</h3>
                     <p className="z-1 w-10 text-0 opacity-8 relative m-0 md:w-9">Pratique suas habilidades e ganhe confiança nos seus conhecimentos completando os desafios propostos pelos professores!</p>
@@ -19,7 +19,7 @@ const Resources = () => {
                     
                 }}
             >
-                <div className="flex flex-column justify-content-evenly gap-2 pl-4 py-6">
+                <div className="flex flex-column justify-content-around gap-4 pl-4 py-6">
                     <h3 className="z-1 text-0 m-0">Vagas</h3>
                     <p className="z-1 w-10 text-0 opacity-8 m-0 md:w-7">Todos os dias nosso time procura por oportunidades para você conseguir seu espaço no mercado de trabalho.</p>
                     <Link to="vagas" className="z-1 text-0 bg-black-alpha-90 hover:bg-white transition-duration-200 hover:text-primary border-round-3xl w-9rem h-3rem flex align-items-center justify-content-center hover:no-underline no-underline" >Acessar</Link>
