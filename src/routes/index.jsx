@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import PageLayout from "../layouts/PageLayout";
 import Home from "../pages/Home";
-import Desafios from "../pages/Desafios";
+import Desafios from "../pages/Desafios/Desafios";
 import Vagas from "../pages/Vagas";
 import Desafio from "../pages/Desafio";
 
